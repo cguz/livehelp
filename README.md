@@ -13,13 +13,15 @@ There are two options to publish a request/offer for help:
    where:
 
     - description could be: FOOD, APARMENT
-    - location is latitud longitud. 
+    - location is <latitud, longitud>. 
 
     For instance: 
 
     [#livehelp LOOKING FOOD 50.116467 30.636352](https://twitter.com/PlanInteraction/status/1507034642859315200?s=20&t=2ULWujSt5cbgTBKGvO8qHQ)
 
-    A Python application is reading from all those message an store them in the database. 
+    A Python application is reading from all those message an store them in the database or excel file:
+    
+        MKR	SELECT          DESCRIPTION	DATE/TIME	LOCATION
 
 2. Through the APP or Web application
 
